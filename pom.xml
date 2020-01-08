@@ -15,28 +15,13 @@
 
   <properties>
     <junit.version>4.12</junit.version>
-    <mybatis.version>3.5.3</mybatis.version>
     <lombok.version>1.18.10</lombok.version>
     <mysql.connector.version>5.1.48</mysql.connector.version>
-    <source.version>11</source.version>
     <target.version>11</target.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-
-      <dependency>
-        <groupId>org.mybatis</groupId>
-        <artifactId>mybatis</artifactId>
-        <version>${mybatis.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>${mysql.connector.version}</version>
-      </dependency>
-
       <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
